@@ -80,11 +80,12 @@ footer p{
     margin: 0;
     padding: 0;
     display: grid ;
-    place-items: center
+    place-items: center;
+
   }
   
   #slider-container {
-    height: 300px;
+    height: 400px;
     width: 80vw;
     max-width: 1400px;
     position: relative;
@@ -129,14 +130,16 @@ footer p{
   #slider-container #slider .slide {
     height: 90%;
     margin: auto 10px;
-    background-color: #98a1a1;
-    box-shadow: 2px 2px 4px 2px white, -2px -2px 4px 2px white;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 4px 2px rgb(221, 221, 221), -2px -2px 4px 2px rgb(219, 219, 219);
     display: grid;
     place-items: center;
+    border-radius: 10px;
+
   }
   
   #slider-container #slider .slide span {
-    color: white;
+    color: rgb(128, 145, 150);
     font-size: 150px;
   }
   
